@@ -28,12 +28,12 @@
 "Meet me with a sign" = "Встретить меня с табличкой";
 "Silent driver" = "Тихий водитель";
 
-"BABY_SEAT" = "Baby car seat (beta)";
-"DELIVERY" = "Delivery";
-"NON_SMOKING" = "Non-smoking driver";
-"EXTRA_LUGGAGE" = "Extra luggage";
-"GOING_WITH_PET" = "Going with pet";
-"AIR_CONDITIONER" = "Air conditioning";
-"ENGLISH_SPEAKING" = "English speaking driver";
-"MEET_ME_WITH_SIGN" = "Meet me with a sign";
-"SILENT_DRIVER" = "Silent driver";
+"BABY_SEAT" = "Детское сидение";
+"DELIVERY" = "Курьер";
+"NON_SMOKING" = "Не курящий водитель";
+"EXTRA_LUGGAGE" = "Дополнительный багаж";
+"GOING_WITH_PET" = "Еду с животным";
+"AIR_CONDITIONER" = "Кондиционер";
+"ENGLISH_SPEAKING" = "Англоговорящий водитель";
+"MEET_ME_WITH_SIGN" = "Встретить меня с табличкой";
+"SILENT_DRIVER" = "Тихий водитель";

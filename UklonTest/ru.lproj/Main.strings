@@ -1,0 +1,39 @@
+
+/* Class = "UIViewController"; title = "Main"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "Главный экран";
+
+/* Class = "UIBarButtonItem"; title = "Wishes"; ObjectID = "NMe-VZ-I2h"; */
+"NMe-VZ-I2h.title" = "Предпочтения";
+
+/* Class = "UIBarButtonItem"; title = "DONE"; ObjectID = "TJn-Ah-U9l"; */
+"TJn-Ah-U9l.title" = "Готово";
+
+/* Class = "UINavigationItem"; title = "Wishes"; ObjectID = "Zut-CX-eqf"; */
+"Zut-CX-eqf.title" = "Предпочтения";
+
+/* Class = "UINavigationItem"; title = "Main"; ObjectID = "pI8-6g-L6W"; */
+"pI8-6g-L6W.title" = "Главный экран";
+
+/* Class = "UILabel"; text = "Hide baby car seat"; ObjectID = "yWZ-Y9-psy"; */
+"yWZ-Y9-psy.text" = "Скрыть детское кресло";
+
+
+"Baby car seat (beta)" = "Детское сидение";
+"Delivery" = "Курьер";
+"Non-smoking driver" = "Не курящий водитель";
+"Extra luggage" = "Дополнительный багаж";
+"Going with pet" = "Еду с животным";
+"Air conditioning" = "Кондиционер";
+"English speaking driver" = "Англоговорящий водитель";
+"Meet me with a sign" = "Встретить меня с табличкой";
+"Silent driver" = "Тихий водитель";
+
+"BABY_SEAT" = "Baby car seat (beta)";
+"DELIVERY" = "Delivery";
+"NON_SMOKING" = "Non-smoking driver";
+"EXTRA_LUGGAGE" = "Extra luggage";
+"GOING_WITH_PET" = "Going with pet";
+"AIR_CONDITIONER" = "Air conditioning";
+"ENGLISH_SPEAKING" = "English speaking driver";
+"MEET_ME_WITH_SIGN" = "Meet me with a sign";
+"SILENT_DRIVER" = "Silent driver";

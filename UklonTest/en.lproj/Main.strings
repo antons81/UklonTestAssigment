@@ -1,0 +1,29 @@
+
+/* Class = "UIViewController"; title = "Main"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "Main";
+
+/* Class = "UIBarButtonItem"; title = "Wishes"; ObjectID = "NMe-VZ-I2h"; */
+"NMe-VZ-I2h.title" = "Wishes";
+
+/* Class = "UIBarButtonItem"; title = "DONE"; ObjectID = "TJn-Ah-U9l"; */
+"TJn-Ah-U9l.title" = "DONE";
+
+/* Class = "UINavigationItem"; title = "Wishes"; ObjectID = "Zut-CX-eqf"; */
+"Zut-CX-eqf.title" = "Wishes";
+
+/* Class = "UINavigationItem"; title = "Main"; ObjectID = "pI8-6g-L6W"; */
+"pI8-6g-L6W.title" = "Main";
+
+/* Class = "UILabel"; text = "Hide baby car seat"; ObjectID = "yWZ-Y9-psy"; */
+"yWZ-Y9-psy.text" = "Hide baby car seat";
+
+
+"BABY_SEAT" = "Baby car seat (beta)";
+"DELIVERY" = "Delivery";
+"NON_SMOKING" = "Non-smoking driver";
+"EXTRA_LUGGAGE" = "Extra luggage";
+"GOING_WITH_PET" = "Going with pet";
+"AIR_CONDITIONER" = "Air conditioning";
+"ENGLISH_SPEAKING" = "English speaking driver";
+"MEET_ME_WITH_SIGN" = "Meet me with a sign";
+"SILENT_DRIVER" = "Silent driver";

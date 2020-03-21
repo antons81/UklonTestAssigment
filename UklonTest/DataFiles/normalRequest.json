@@ -1,0 +1,44 @@
+[
+    {
+        "id": 0,
+        "name": "Delivery",
+        "isEditable": false,
+        "note": ""
+    },{
+        "id": 1,
+        "name": "Non-smoking driver",
+        "isEditable": false,
+        "note": ""
+    },{
+        "id": 2,
+        "name": "Extra luggage",
+        "isEditable": false,
+        "note": ""
+    },{
+        "id": 3,
+        "name": "Going with pet",
+        "isEditable": true,
+        "note": ""
+    },{
+        "id": 4,
+        "name": "Air conditioning",
+        "isEditable": false,
+        "note": ""
+    },{
+        "id": 5,
+        "name": "English speaking driver",
+        "isEditable": false,
+        "note": ""
+    },{
+        "id": 6,
+        "name": "Meet me with a sign",
+        "isEditable": false,
+        "note": ""
+    },{
+        "id": 7,
+        "name": "Silent driver",
+        "isEditable": false,
+        "note": ""
+    }
+]
+

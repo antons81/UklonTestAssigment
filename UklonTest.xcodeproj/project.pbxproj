@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1E5B1EC8243905AE00005319 /* String+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5B1EC7243905AE00005319 /* String+extensions.swift */; };
+		1EE7E704243A1282008083D3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1EE7E706243A1282008083D3 /* Localizable.strings */; };
+		1EE7E717243A1574008083D3 /* RequestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EE7E716243A1574008083D3 /* RequestCell.xib */; };
 		1EEBE70724200E8300188598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEBE70624200E8300188598 /* AppDelegate.swift */; };
 		1EEBE70E24200E8300188598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EEBE70C24200E8300188598 /* Main.storyboard */; };
 		1EEBE71024200E8500188598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EEBE70F24200E8500188598 /* Assets.xcassets */; };
@@ -33,22 +35,21 @@
 		1EEBE7522421900100188598 /* normalRequest.json in Resources */ = {isa = PBXBuildFile; fileRef = 1EEBE7512421900100188598 /* normalRequest.json */; };
 		1EEBE7542421D8C300188598 /* UINavigationController+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEBE7532421D8C300188598 /* UINavigationController+extensions.swift */; };
 		1EEBE7592421E80700188598 /* LocalizableConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEBE7582421E80700188598 /* LocalizableConstants.swift */; };
-		1EEBE75B2421EF1100188598 /* RequestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EEBE75D2421EF1100188598 /* RequestCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1E5B1EC7243905AE00005319 /* String+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+extensions.swift"; sourceTree = "<group>"; };
-		1E5B1ECC24390E8300005319 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/RequestCell.xib; sourceTree = "<group>"; };
-		1E5B1ECD24390E8300005319 /* uk */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = uk; path = uk.lproj/RequestCell.xib; sourceTree = "<group>"; };
+		1EE7E705243A1282008083D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1EE7E707243A1285008083D3 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1EE7E708243A1286008083D3 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1EE7E716243A1574008083D3 /* RequestCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RequestCell.xib; sourceTree = "<group>"; };
 		1EEBE70324200E8300188598 /* UklonTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UklonTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EEBE70624200E8300188598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EEBE70D24200E8300188598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1EEBE70F24200E8500188598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EEBE71224200E8500188598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EEBE71424200E8500188598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1EEBE71A2420100300188598 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Main.strings; sourceTree = "<group>"; };
 		1EEBE71B2420100300188598 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		1EEBE71C2420101500188598 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		1EEBE71D2420101500188598 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		1EEBE7202420140400188598 /* MainScreenViewControllerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewControllerPresenter.swift; sourceTree = "<group>"; };
 		1EEBE7212420140400188598 /* MainScreenViewControllerRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewControllerRouter.swift; sourceTree = "<group>"; };
@@ -71,8 +72,6 @@
 		1EEBE7512421900100188598 /* normalRequest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = normalRequest.json; sourceTree = "<group>"; };
 		1EEBE7532421D8C300188598 /* UINavigationController+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+extensions.swift"; sourceTree = "<group>"; };
 		1EEBE7582421E80700188598 /* LocalizableConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableConstants.swift; sourceTree = "<group>"; };
-		1EEBE75A2421EE3B00188598 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		1EEBE7642421EFFD00188598 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RequestCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +88,7 @@
 		1EEBE6FA24200E8300188598 = {
 			isa = PBXGroup;
 			children = (
+				1EE7E706243A1282008083D3 /* Localizable.strings */,
 				1EEBE70524200E8300188598 /* UklonTest */,
 				1EEBE70424200E8300188598 /* Products */,
 			);
@@ -195,7 +195,7 @@
 		1EEBE74A24216AB200188598 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				1EEBE75D2421EF1100188598 /* RequestCell.xib */,
+				1EE7E716243A1574008083D3 /* RequestCell.xib */,
 				1EEBE74D24216AD300188598 /* RequestCell.swift */,
 			);
 			path = Cells;
@@ -270,11 +270,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EEBE7522421900100188598 /* normalRequest.json in Resources */,
+				1EE7E717243A1574008083D3 /* RequestCell.xib in Resources */,
 				1EEBE71324200E8500188598 /* LaunchScreen.storyboard in Resources */,
 				1EEBE71024200E8500188598 /* Assets.xcassets in Resources */,
+				1EE7E704243A1282008083D3 /* Localizable.strings in Resources */,
 				1EEBE74024215DD300188598 /* betaRequest.json in Resources */,
 				1EEBE70E24200E8300188598 /* Main.storyboard in Resources */,
-				1EEBE75B2421EF1100188598 /* RequestCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,13 +313,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		1EE7E706243A1282008083D3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EE7E705243A1282008083D3 /* en */,
+				1EE7E707243A1285008083D3 /* ru */,
+				1EE7E708243A1286008083D3 /* uk */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		1EEBE70C24200E8300188598 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1EEBE70D24200E8300188598 /* Base */,
-				1EEBE71A2420100300188598 /* uk */,
-				1EEBE71C2420101500188598 /* ru */,
-				1EEBE75A2421EE3B00188598 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -331,16 +339,6 @@
 				1EEBE71D2420101500188598 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		1EEBE75D2421EF1100188598 /* RequestCell.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1EEBE7642421EFFD00188598 /* en */,
-				1E5B1ECC24390E8300005319 /* ru */,
-				1E5B1ECD24390E8300005319 /* uk */,
-			);
-			name = RequestCell.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

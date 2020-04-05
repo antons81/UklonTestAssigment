@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  UklonTest
+
+  Created by Anton Stremovskiy on 05.04.2020.
+  Copyright © 2020 Anton Stremovskiy. All rights reserved.
+*/
+
+"BABY_SEAT" = "Baby car seat (beta)";
+"DELIVERY" = "Delivery";
+"NON_SMOKING" = "Non-smoking driver";
+"EXTRA_LUGGAGE" = "Extra luggage";
+"GOING_WITH_PET" = "Going with pet";
+"AIR_CONDITIONER" = "Air conditioning";
+"ENGLISH_SPEAKING" = "English speaking driver";
+"MEET_ME_WITH_SIGN" = "Meet me with a sign";
+"SILENT_DRIVER" = "Silent driver";
+

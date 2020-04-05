@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  UklonTest
+
+  Created by Anton Stremovskiy on 05.04.2020.
+  Copyright © 2020 Anton Stremovskiy. All rights reserved.
+*/
+
+"BABY_SEAT" = "Детское сидение";
+"DELIVERY" = "Курьер";
+"NON_SMOKING" = "Не курящий водитель";
+"EXTRA_LUGGAGE" = "Дополнительный багаж";
+"GOING_WITH_PET" = "Еду с животным";
+"AIR_CONDITIONER" = "Кондиционер";
+"ENGLISH_SPEAKING" = "Англоговорящий водитель";
+"MEET_ME_WITH_SIGN" = "Встретить меня с табличкой";
+"SILENT_DRIVER" = "Тихий водитель";

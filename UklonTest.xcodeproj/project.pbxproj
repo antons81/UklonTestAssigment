@@ -43,6 +43,9 @@
 		1EE7E707243A1285008083D3 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1EE7E708243A1286008083D3 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1EE7E716243A1574008083D3 /* RequestCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RequestCell.xib; sourceTree = "<group>"; };
+		1EE7E71B243A1BC9008083D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		1EE7E71C243A1BCC008083D3 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		1EE7E71D243A1BCE008083D3 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Main.strings; sourceTree = "<group>"; };
 		1EEBE70324200E8300188598 /* UklonTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UklonTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EEBE70624200E8300188598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EEBE70D24200E8300188598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -327,6 +330,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				1EEBE70D24200E8300188598 /* Base */,
+				1EE7E71B243A1BC9008083D3 /* en */,
+				1EE7E71C243A1BCC008083D3 /* ru */,
+				1EE7E71D243A1BCE008083D3 /* uk */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

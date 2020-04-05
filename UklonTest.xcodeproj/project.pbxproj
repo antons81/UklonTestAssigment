@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E5B1EC8243905AE00005319 /* String+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5B1EC7243905AE00005319 /* String+extensions.swift */; };
 		1EEBE70724200E8300188598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEBE70624200E8300188598 /* AppDelegate.swift */; };
 		1EEBE70E24200E8300188598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EEBE70C24200E8300188598 /* Main.storyboard */; };
 		1EEBE71024200E8500188598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EEBE70F24200E8500188598 /* Assets.xcassets */; };
@@ -36,6 +37,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E5B1EC7243905AE00005319 /* String+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+extensions.swift"; sourceTree = "<group>"; };
+		1E5B1ECC24390E8300005319 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/RequestCell.xib; sourceTree = "<group>"; };
+		1E5B1ECD24390E8300005319 /* uk */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = uk; path = uk.lproj/RequestCell.xib; sourceTree = "<group>"; };
 		1EEBE70324200E8300188598 /* UklonTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UklonTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EEBE70624200E8300188598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EEBE70D24200E8300188598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -147,6 +151,7 @@
 				1EEBE733242019F700188598 /* UIStoryboard+extensions.swift */,
 				1EEBE74F2421755400188598 /* Thread+extensions.swift */,
 				1EEBE7532421D8C300188598 /* UINavigationController+extensions.swift */,
+				1E5B1EC7243905AE00005319 /* String+extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -281,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EEBE7262420140400188598 /* MainScreenViewController.swift in Sources */,
+				1E5B1EC8243905AE00005319 /* String+extensions.swift in Sources */,
 				1EEBE74E24216AD300188598 /* RequestCell.swift in Sources */,
 				1EEBE7252420140400188598 /* MainScreenViewControllerRouter.swift in Sources */,
 				1EEBE70724200E8300188598 /* AppDelegate.swift in Sources */,
@@ -331,6 +337,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				1EEBE7642421EFFD00188598 /* en */,
+				1E5B1ECC24390E8300005319 /* ru */,
+				1E5B1ECD24390E8300005319 /* uk */,
 			);
 			name = RequestCell.xib;
 			sourceTree = "<group>";

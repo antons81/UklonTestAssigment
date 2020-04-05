@@ -16,12 +16,14 @@ struct PersonalRequest: Decodable {
     var name: String
     var isEditable: Bool
     var note: String
+    var localizableName: String
     
     enum CodingKeys: String, CodingKey {
         case id
         case name
         case isEditable
         case note
+        case localizableName
     }
 }
 

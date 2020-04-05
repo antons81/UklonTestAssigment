@@ -15,7 +15,8 @@ class RequestCell: UITableViewCell {
     @IBOutlet weak var noteContainerHeight: NSLayoutConstraint!
     
     func setupCellView(_ item: PersonalRequest, _ isItemSelected: Bool) {
-        requestName.text = item.name
+        print(item.localizableName)
+        requestName.text = item.localizableName
         checkmark.isHidden = !isItemSelected
         UIView.animate(withDuration: 0.5) {
             self.noteContainerHeight.constant = item.isEditable && isItemSelected ? 44 : 0

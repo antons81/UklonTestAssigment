@@ -25,7 +25,8 @@ class APIManager  {
         if let url = Bundle.main.url(forResource: path.rawValue, withExtension: "json") {
             do {
                 let data = try Data(contentsOf: url)
-                let jsonData = try JSONDecoder().decode(T.self, from: data)
+                let decoder = JSONDecoder()
+                let jsonData = try decoder.decode(T.self, from: data)
                 resultObject(jsonData)
             } catch let error {
                 failure?(error)

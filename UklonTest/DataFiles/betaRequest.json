@@ -3,46 +3,55 @@
         "id": 0,
         "name": "Baby car seat (beta)",
         "isEditable": false,
-        "note": ""
+        "note": "",
+        "localizableName": "BABY_SEAT"
     },{
         "id": 1,
         "name": "Delivery",
         "isEditable": false,
-        "note": ""
+        "note": "",
+        "localizableName": "DELIVERY"
     },{
        "id": 2,
         "name": "Non-smoking driver",
         "isEditable": false,
-        "note": ""
+        "note": "",
+        "localizableName": "NON_SMOKING"
     },{
         "id": 3,
         "name": "Extra luggage",
         "isEditable": false,
-        "note": ""
+        "note": "",
+        "localizableName": "EXTRA_LUGGAGE"
     },{
         "id": 4,
         "name": "Going with pet",
         "isEditable": true,
-        "note": ""
+        "note": "",
+        "localizableName": "GOING_WITH_PET"
     },{
         "id": 5,
         "name": "Air conditioning",
         "isEditable": false,
-        "note": ""
+        "note": "",
+        "localizableName": "AIR_CONDITIONER"
     },{
         "id": 6,
         "name": "English speaking driver",
         "isEditable": false,
-        "note": ""
+        "note": "",
+        "localizableName": "ENGLISH_SPEAKING"
     },{
         "id": 7,
         "name": "Meet me with a sign",
         "isEditable": false,
-        "note": ""
+        "note": "",
+        "localizableName": "MEET_ME_WITH_SIGN"
     },{
         "id": 8,
         "name": "Silent driver",
         "isEditable": false,
-        "note": ""
+        "note": "",
+        "localizableName": "SILENT_DRIVER"
     }
 ]

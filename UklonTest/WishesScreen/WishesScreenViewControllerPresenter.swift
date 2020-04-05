@@ -73,7 +73,18 @@ extension WishesScreenViewControllerPresenter: WishesScreenPresenterProtocol {
     
     func fetchRequests(_ requestType: DataType) {
         RequestModel.fetchPersonalRequests(dataType: isDataSwitched ? .normalRequest : .betaRequest) { requests in
-            self.requests = requests
+            
+            var mappedRequests = PersonalRequests()
+            for request in requests {
+                let updatedRequest = PersonalRequest(id: request.id,
+                                               name: request.name,
+                                               isEditable: request.isEditable,
+                                               note: request.note,
+                                               localizableName: request.localizableName.localized)
+                mappedRequests.append(updatedRequest)
+            }
+            
+            self.requests = mappedRequests
         }
     }
     

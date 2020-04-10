@@ -16,14 +16,3 @@
 
 /* Class = "UILabel"; text = "Hide baby car seat"; ObjectID = "yWZ-Y9-psy"; */
 "yWZ-Y9-psy.text" = "Hide baby car seat";
-
-
-"BABY_SEAT" = "Baby car seat (beta)";
-"DELIVERY" = "Delivery";
-"NON_SMOKING" = "Non-smoking driver";
-"EXTRA_LUGGAGE" = "Extra luggage";
-"GOING_WITH_PET" = "Going with pet";
-"AIR_CONDITIONER" = "Air conditioning";
-"ENGLISH_SPEAKING" = "English speaking driver";
-"MEET_ME_WITH_SIGN" = "Meet me with a sign";
-"SILENT_DRIVER" = "Silent driver";

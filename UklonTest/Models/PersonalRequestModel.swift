@@ -12,17 +12,9 @@ import Foundation
 typealias PersonalRequests = [PersonalRequest]
 
 struct PersonalRequest: Decodable {
-    var id: Int
-    var name: String
-    var isEditable: Bool
-    var note: String
-    var localizableName: String
-    
-    enum CodingKeys: String, CodingKey {
-        case id
-        case name
-        case isEditable
-        case note
-        case localizableName
-    }
+    let id: Int
+    let name: String
+    let isEditable: Bool
+    let note: String
+    let localizableName: String
 }

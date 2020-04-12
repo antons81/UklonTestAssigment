@@ -26,13 +26,3 @@ struct PersonalRequest: Decodable {
         case localizableName
     }
 }
-
-class RequestModel {
-    static func fetchPersonalRequests(dataType: DataType, completion: ((PersonalRequests) -> Void)?) {
-        APIManager.shared.request(path: dataType, resultObject: { requests in
-            completion?(requests)
-        }) { error in
-            print(error.localizedDescription)
-        }
-    }
-}

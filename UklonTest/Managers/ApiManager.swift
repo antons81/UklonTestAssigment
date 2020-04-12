@@ -15,7 +15,7 @@ enum DataType: String {
 
 class APIManager  {
     
-    static let shared : APIManager = APIManager()
+    static let shared: APIManager = APIManager()
     private init() {}
     
     func request<T: Decodable>(path: DataType,

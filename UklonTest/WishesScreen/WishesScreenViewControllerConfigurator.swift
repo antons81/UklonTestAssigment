@@ -39,7 +39,9 @@ extension WishesScreenViewControllerConfigurator: WishesScreenViewControllerConf
     func config(viewController: WishesScreenViewController) {
 
         let router = WishesScreenViewControllerRouter(view: viewController)
+        let service = WishesService()
         let presenter = WishesScreenViewControllerPresenter(router: router,
+                                                            service: service,
                                                             view: viewController,
                                                             selectedValue: selectedValue,
                                                             delegate: delegate)

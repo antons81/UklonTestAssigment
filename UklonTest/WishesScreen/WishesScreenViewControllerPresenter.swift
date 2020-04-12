@@ -20,6 +20,7 @@ protocol WishesScreenPresenterProtocol: class {
     func closeAndSaveScreen()
 }
 
+
 class WishesScreenViewControllerPresenter: NSObject {
     
     var requests = PersonalRequests() {
@@ -42,9 +43,11 @@ class WishesScreenViewControllerPresenter: NSObject {
     // MARK: - Private variables
     private let router: WishesScreenViewControllerRouterProtocol
     private weak var delegate: WishesScreenPresenterDelegate?
+    private let service: WishesService
     
     // MARK: - Initialization
     init(router: WishesScreenViewControllerRouterProtocol,
+         service: WishesService,
          view: WishesScreenViewControllerViewProtocol,
          selectedValue: Bool,
          delegate: WishesScreenPresenterDelegate?) {
@@ -53,6 +56,7 @@ class WishesScreenViewControllerPresenter: NSObject {
         self.view = view
         self.isDataSwitched = selectedValue
         self.delegate = delegate
+        self.service = service
     }
 }
 
@@ -69,7 +73,7 @@ extension WishesScreenViewControllerPresenter: WishesScreenPresenterProtocol {
     }
     
     func fetchRequests(_ requestType: DataType) {
-        RequestModel.fetchPersonalRequests(dataType: isDataSwitched ? .normalRequest : .betaRequest) { requests in
+        service.fetchPersonalRequests(dataType: isDataSwitched ? .normalRequest : .betaRequest) { requests in
             self.requests = requests
         }
     }

@@ -28,7 +28,6 @@ extension MainScreenViewControllerConfigurator: MainScreenViewControllerConfigur
     }
     
     func config(viewController: MainScreenViewController) {
-        
         let router = MainScreenViewControllerRouter(view: viewController)
         let presenter = MainScreenViewControllerPresenter(router: router, view: viewController)
         viewController.presenter = presenter

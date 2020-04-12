@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E3BE1552443AFD00023ADDE /* WishesScreenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3BE1542443AFD00023ADDE /* WishesScreenService.swift */; };
 		1E5B1EC8243905AE00005319 /* String+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5B1EC7243905AE00005319 /* String+extensions.swift */; };
 		1EE7E704243A1282008083D3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1EE7E706243A1282008083D3 /* Localizable.strings */; };
 		1EE7E717243A1574008083D3 /* RequestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EE7E716243A1574008083D3 /* RequestCell.xib */; };
@@ -34,10 +35,10 @@
 		1EEBE7502421755400188598 /* Thread+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEBE74F2421755400188598 /* Thread+extensions.swift */; };
 		1EEBE7522421900100188598 /* normalRequest.json in Resources */ = {isa = PBXBuildFile; fileRef = 1EEBE7512421900100188598 /* normalRequest.json */; };
 		1EEBE7542421D8C300188598 /* UINavigationController+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEBE7532421D8C300188598 /* UINavigationController+extensions.swift */; };
-		1EEBE7592421E80700188598 /* LocalizableConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEBE7582421E80700188598 /* LocalizableConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E3BE1542443AFD00023ADDE /* WishesScreenService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishesScreenService.swift; sourceTree = "<group>"; };
 		1E5B1EC7243905AE00005319 /* String+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+extensions.swift"; sourceTree = "<group>"; };
 		1EE7E705243A1282008083D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1EE7E707243A1285008083D3 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -74,7 +75,6 @@
 		1EEBE74F2421755400188598 /* Thread+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Thread+extensions.swift"; sourceTree = "<group>"; };
 		1EEBE7512421900100188598 /* normalRequest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = normalRequest.json; sourceTree = "<group>"; };
 		1EEBE7532421D8C300188598 /* UINavigationController+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+extensions.swift"; sourceTree = "<group>"; };
-		1EEBE7582421E80700188598 /* LocalizableConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,6 @@
 		1EEBE70524200E8300188598 /* UklonTest */ = {
 			isa = PBXGroup;
 			children = (
-				1EEBE7572421E7F300188598 /* Constants */,
 				1EEBE746242163DE00188598 /* Models */,
 				1EEBE7412421619A00188598 /* Managers */,
 				1EEBE73E24215D9D00188598 /* DataFiles */,
@@ -144,6 +143,7 @@
 				1EEBE7292420142200188598 /* WishesScreenViewControllerRouter.swift */,
 				1EEBE72A2420142200188598 /* WishesScreenViewController.swift */,
 				1EEBE72B2420142200188598 /* WishesScreenViewControllerConfigurator.swift */,
+				1E3BE1542443AFD00023ADDE /* WishesScreenService.swift */,
 			);
 			path = WishesScreen;
 			sourceTree = "<group>";
@@ -202,14 +202,6 @@
 				1EEBE74D24216AD300188598 /* RequestCell.swift */,
 			);
 			path = Cells;
-			sourceTree = "<group>";
-		};
-		1EEBE7572421E7F300188598 /* Constants */ = {
-			isa = PBXGroup;
-			children = (
-				1EEBE7582421E80700188598 /* LocalizableConstants.swift */,
-			);
-			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EEBE7262420140400188598 /* MainScreenViewController.swift in Sources */,
+				1E3BE1552443AFD00023ADDE /* WishesScreenService.swift in Sources */,
 				1E5B1EC8243905AE00005319 /* String+extensions.swift in Sources */,
 				1EEBE74E24216AD300188598 /* RequestCell.swift in Sources */,
 				1EEBE7252420140400188598 /* MainScreenViewControllerRouter.swift in Sources */,
@@ -302,7 +295,6 @@
 				1EEBE7502421755400188598 /* Thread+extensions.swift in Sources */,
 				1EEBE73A242022DD00188598 /* NavigationPresenter.swift in Sources */,
 				1EEBE72C2420142200188598 /* WishesScreenViewControllerPresenter.swift in Sources */,
-				1EEBE7592421E80700188598 /* LocalizableConstants.swift in Sources */,
 				1EEBE7542421D8C300188598 /* UINavigationController+extensions.swift in Sources */,
 				1EEBE73B242022DD00188598 /* NavigationRouter.swift in Sources */,
 				1EEBE72F2420142200188598 /* WishesScreenViewControllerConfigurator.swift in Sources */,
